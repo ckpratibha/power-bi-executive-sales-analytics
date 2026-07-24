@@ -1,5 +1,10 @@
 # Executive Sales Analytics Dashboard
-![Executive Sales Dashboard](Images/ExecutiveSalesDashboard.png)
+
+## Project Files
+
+- [Download the Power BI Dashboard](PowerBI/Executive-Sales-Analytics.pbix)
+- [View the Dataset](Data/)
+- 
 ## Project Overview
 
 This project demonstrates the design and development of an Executive Sales Analytics Dashboard using Power BI. The solution enables business users to monitor sales performance, profitability, customer segments, and product performance through interactive dashboards built using Power Query, star schema modeling, and reusable DAX measures.
@@ -10,116 +15,122 @@ The organization required an executive dashboard to monitor sales performance, p
 
 ## Business Objectives
 
-Create a centralized sales reporting solution.
+- Create a centralized sales reporting solution.
 
-Enable executives to monitor sales and profitability.
+- Enable executives to monitor sales and profitability.
 
-Analyze sales across regions, products, and customer segments.
+- Analyze sales across regions, products, and customer segments.
 
-Replace static reports with interactive dashboards.
+- Replace static reports with interactive dashboards.
 
 ## Dataset Overview
 
 The dataset contains transactional sales records, customer information, product hierarchy, geographical details, shipping information, and order dates used for business performance analysis.
 
+![Data model](Images/Data-model.jpg)
 
 The model follows a simple star schema with the Sales fact table connected to a dedicated Date dimension. The active relationship uses Order Date for reporting, while Ship Date is maintained as an inactive relationship for future time-based analysis using DAX.
 
 ## Dashboard Overview
 
-Super Store Sales Dashboard-
+Super Store Sales Dashboard- Developed a Power BI dashboard using a star schema data model with DAX measures and interactive visualizations.
 
-Developed a Power BI dashboard using a star schema data model with DAX measures and interactive visualizations.
+![Executive Sales Dashboard](Images/ExecutiveSalesDashboard.png)
 
 The dashboard provides:
 
-Executive KPI summary
+- Executive KPI summary
 
-Sales by Region
+- Sales by Region
 
-Sales by Ship Mode
+- Sales by Ship Mode
 
-Category and Sub-category performance
+- Category and Sub-category performance
 
-Customer analysis
+- Customer analysis
 
-Year-over-year sales trends
+- Year-over-year sales trends
 
 ## KPIs
 
-Total Sales
+- Total Sales
 
-Total Profit
+- Total Profit
 
-Total Orders
+- Total Orders
 
-Total Customers
+- Total Customers
 
-Sales Quantity
+- Sales Quantity
 
-Profit Margin %
+- Profit Margin %
 
-Average Discount
+- Average Discount
 
 ## Technologies Used
 
-Microsoft Power BI Desktop
+- Microsoft Power BI Desktop
 
-Power Query
+- Power Query
 
-DAX
+- DAX
 
-Microsoft Excel
+- Microsoft Excel
 
-Star Schema Modeling
+- Star Schema Modeling
 
 ## Skills Demonstrated
 
-Power Query
+- Power Query
 
-Star Schema Modeling
+- Star Schema Modeling
 
-DAX
+- DAX
 
-Dashboard Design
+- Dashboard Design
 
-KPI Development
+- KPI Development
 
 ## Business Value
 
 The dashboard enables business users to:
 
-Monitor overall sales performance.
+- Monitor overall sales performance.
 
-Compare regional performance.
+- Compare regional performance.
 
-Analyze customer and product profitability.
+- Analyze customer and product profitability.
 
-Identify sales trends.
+- Identify sales trends.
 
-Support faster business decision-making.
+- Support faster business decision-making.
 
 ## Challenges and Solutions
+
+| Challenge | Solution|
+|------------|:------:|
+| Multiple date fields | Created a Date dimension with active/inactive relationships | 
+| Sales analysis | Developed reusable DAX measures | 
 
 ## My Role
 
 I independently completed the following activities:
 
-Business requirement analysis
+- Business requirement analysis
 
-Data profiling
+- Data profiling
 
-Power Query transformations
+- Power Query transformations
 
-Star schema design
+- Star schema design
 
-DAX development
+- DAX development
 
-Dashboard design
+- Dashboard design
 
-KPI validation
+- KPI validation
 
-Documentation
+- Documentation
 
 ## Lessons Learned
 
@@ -127,34 +138,34 @@ This project introduced the fundamentals of Power BI development, including data
 
 Key learnings include:
 
-Building a basic star schema.
+- Building a basic star schema.
 
-Creating reusable DAX measures.
+- Creating reusable DAX measures.
 
-Designing executive dashboards focused on business questions.
+- Designing executive dashboards focused on business questions.
 
-Understanding the importance of a dedicated Date dimension for reporting.
+- Understanding the importance of a dedicated Date dimension for reporting.
 
 ## Limitations
 
 The following limitations were identified as part of the project scope:
 
-The dataset is based on a simulated retail sales dataset and does not represent live business transactions.
+- The dataset is based on a simulated retail sales dataset and does not represent live business transactions.
 
-The solution uses Import Mode and does not include scheduled data refresh.
+- The solution uses Import Mode and does not include scheduled data refresh.
 
-Role-Based Security (RLS) has not been implemented.
+- Role-Based Security (RLS) has not been implemented.
 
-The dashboard focuses on executive reporting and does not include detailed drill-through analysis.
+- The dashboard focuses on executive reporting and does not include detailed drill-through analysis.
 
-Integration with enterprise systems such as ERP, CRM, or SQL databases is outside the scope of this project.
+- Integration with enterprise systems such as ERP, CRM, or SQL databases is outside the scope of this project.
 
 ## Future Enhancements
 
-Scheduled Refresh
+- Scheduled Refresh
 
-Row Level Security
+- Row Level Security
 
-Drill through
+- Drill through
 
-Power BI Service Deployment
+- Power BI Service Deployment
