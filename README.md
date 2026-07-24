@@ -2,9 +2,9 @@
 
 ## Project Files
 
-- [Download the Power BI Dashboard](PowerBI/Executive-Sales-Analytics.pbix)
-- [View the Dataset](Data/)
-- 
+- [Download the Power BI Dashboard](Dashboard/Super-Store-Dashboard.pbix)
+- [View the Dataset](Data/Superstore-dataset.csv)
+
 ## Project Overview
 
 This project demonstrates the design and development of an Executive Sales Analytics Dashboard using Power BI. The solution enables business users to monitor sales performance, profitability, customer segments, and product performance through interactive dashboards built using Power Query, star schema modeling, and reusable DAX measures.
