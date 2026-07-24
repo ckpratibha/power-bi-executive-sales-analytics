@@ -22,12 +22,15 @@ Replace static reports with interactive dashboards.
 
 The dataset contains transactional sales records, customer information, product hierarchy, geographical details, shipping information, and order dates used for business performance analysis.
 
+![Data model](Images/Data-model.jpg)
 
 The model follows a simple star schema with the Sales fact table connected to a dedicated Date dimension. The active relationship uses Order Date for reporting, while Ship Date is maintained as an inactive relationship for future time-based analysis using DAX.
 
 ## Dashboard Overview
 
 Super Store Sales Dashboard-
+
+![Executive Sales Dashboard](Images/ExecutiveSalesDashboard.png)
 
 Developed a Power BI dashboard using a star schema data model with DAX measures and interactive visualizations.
 
