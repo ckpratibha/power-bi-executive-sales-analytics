@@ -1,5 +1,5 @@
 # Executive Sales Analytics Dashboard
-![Executive Sales Dashboard](Images/"ExecutiveSalesDashboard".png)
+![Executive Sales Dashboard](Images/ExecutiveSalesDashboard.png)
 ## Project Overview
 
 This project demonstrates the design and development of an Executive Sales Analytics Dashboard using Power BI. The solution enables business users to monitor sales performance, profitability, customer segments, and product performance through interactive dashboards built using Power Query, star schema modeling, and reusable DAX measures.
@@ -21,6 +21,7 @@ Replace static reports with interactive dashboards.
 ## Dataset Overview
 
 The dataset contains transactional sales records, customer information, product hierarchy, geographical details, shipping information, and order dates used for business performance analysis.
+
 
 The model follows a simple star schema with the Sales fact table connected to a dedicated Date dimension. The active relationship uses Order Date for reporting, while Ship Date is maintained as an inactive relationship for future time-based analysis using DAX.
 
